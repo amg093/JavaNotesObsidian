@@ -16,7 +16,7 @@
 
 2) **Идентификация**
 Для БД есть только одна сущность, по которому объект может быть идентифицирован — это Первичный Ключ (Primary Key).
-В то время, как в Java у нас есть такие вещи, как (entity1 == entity2) и (obj1.equals(obj2).
+В то время как в Java у нас есть такие вещи, как (entity1 == entity2) и (obj1.equals(obj2).
 
 3) **Абстракция**
 В Java мы используем ссылки на объекты для абстракции, а в реляционной модели — Внешний Ключ (Foreign Key).
@@ -103,7 +103,7 @@ Hibernate появился раньше, чем JPA. Первый релиз Hib
 
 ###### Интерфейсы `Persistence`, `EntityManagerFactory`, `EntityManager`, `EntityTransaction` и `Query` .
 Являются частью Java Persistence API (JPA), который является стандартом для работы с объектно-реляционным отображением (ORM) в Java. 
-![[images/Pasted image 20240429151156.png]]
+![image](images/Pasted image 20240429151156.png)
 1. **Persistence**:
     - Сначала используется статический метод `createEntityManagerFactory()` класса `Persistence`, чтобы создать объект `EntityManagerFactory`. Этот метод использует конфигурацию JPA (например, `persistence.xml`) для создания фабрики сущностей.
       
