@@ -103,7 +103,7 @@ Hibernate появился раньше, чем JPA. Первый релиз Hib
 
 ###### Интерфейсы `Persistence`, `EntityManagerFactory`, `EntityManager`, `EntityTransaction` и `Query` .
 Являются частью Java Persistence API (JPA), который является стандартом для работы с объектно-реляционным отображением (ORM) в Java. 
-![image](images/Pasted image 20240429151156.png)
+![[images/Pasted image 20240429151156.png]]
 1. **Persistence**:
     - Сначала используется статический метод `createEntityManagerFactory()` класса `Persistence`, чтобы создать объект `EntityManagerFactory`. Этот метод использует конфигурацию JPA (например, `persistence.xml`) для создания фабрики сущностей.
       
